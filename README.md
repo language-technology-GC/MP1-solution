@@ -47,7 +47,11 @@ Is this more or less correlated with human relatedness judgments than the WordNe
 
 ## Part 2: log-odds ratios
 
+<<<<<<< HEAD
 In the second part of the MP you will use the _log-odds ratio, informative Dirichlet prior_ method to compare word frequencies in two corpora.
+=======
+In the second part of the MP you will use the _log-odds ratio, informative Dirichlet prior_ method to compare word frequencies in each corpus.
+>>>>>>> 0fb5e29efe2220d197aa763649ee65f036aa69a2
 
 Your assignment is to create a script which takes as input three TSV files (containing tokens and their frequencies).
 The first two corpora are the "target" corpora; the third is the "background" corpus used as a prior.
@@ -55,7 +59,7 @@ Then, your script should computes the z-scored log-odds ratios using formulae 19
 and print out a two-column TSV file consisting of words and their z-scored log-odds ratios.
 The output rows should be sorted by z-scores so that words with the highest scores are at the top and the lowest scores at the bottom.
 
-You should build two "target" corpora for comparison, and a third background corpus.
+You should collect two "target" corpora for comparison, and a third background corpus.
 Ideally, the two "target" will be highly comparable (e.g., political speeches in the same language), and all three corpora should be subject to roughly the same tokenization and normalization schemes.
 
 If you are working with English, you may use the [2017 News Crawl](https://github.com/language-technology-GC/frequency-distributions/blob/master/frequencies/news.2017-1.tsv) (`logodds/news.tsv`) as a background corpus. You may also use the [horoscopes corpus](https://github.com/language-technology-GC/frequency-distributions/blob/master/frequencies/horoscopes-1.tsv) as one of the two target corpora.
@@ -79,4 +83,4 @@ Add the option to use the raw log-odds ratio without the z-score scaling (e.g., 
 How do the results differ?
 
 Scale the background by dividing (and flooring) them by some positive integer.
-How doe the results differ?
+How do the results differ?
