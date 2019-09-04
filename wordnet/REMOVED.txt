@@ -1,0 +1,5 @@
+maradona	football  # WordNet doesn't contain "Maradona".
+stock	live
+drink	eat
+investor	earning
+fighting	defeating
