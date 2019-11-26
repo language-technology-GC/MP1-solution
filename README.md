@@ -47,11 +47,7 @@ Is this more or less correlated with human relatedness judgments than the WordNe
 
 ## Part 2: log-odds ratios
 
-<<<<<<< HEAD
-In the second part of the MP you will use the _log-odds ratio, informative Dirichlet prior_ method to compare word frequencies in two corpora.
-=======
 In the second part of the MP you will use the _log-odds ratio, informative Dirichlet prior_ method to compare word frequencies in each corpus.
->>>>>>> 0fb5e29efe2220d197aa763649ee65f036aa69a2
 
 Your assignment is to create a script which takes as input three TSV files (containing tokens and their frequencies).
 The first two corpora are the "target" corpora; the third is the "background" corpus used as a prior.
